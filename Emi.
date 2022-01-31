@@ -1,3 +1,6 @@
-getgenv().prefix = ".";
+local args = {[1] = "Antigrab By Emi. #7 99 7 ", [2] = "All"};
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args));
+
+getgenv().prefix = "x";
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Emi./Emi./DBZFS_Scripts/Antigrab"))();
